@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+benchmarks/
+logs/
+
+relevant-code-from-pvd-impl/
+tmp_run/
+
+.DS_Store

@@ -1,0 +1,17 @@
+config:
+  model_name: unimolv2
+  model_size: 84m
+  task: regression
+  metrics: mse
+  epochs: 10
+  batch_size: 16
+  file_name: gdb9
+structures:
+  precise3d:
+    sdf_url: https://deepchemdata.s3-us-west-1.amazonaws.com/datasets/gdb9.tar.gz
+  optimized3d:
+    sdf_url: https://www.dropbox.com/scl/fi/drgk2ecv9lpni3ljmiixh/gdb9-3d-opt.tar.gz?rlkey=btqxv4q7zrt20452p1lg094yu&st=9yqcri8w&dl=1
+  rdkit3d:
+    sdf_url: https://www.dropbox.com/scl/fi/6sh166f4u3sr26mc6ukl9/gdb9-3d.tar.gz?rlkey=hvhoe463o9doa89hsmqfhjoi7&st=rlrrx9ah&dl=1
+  rdkit2d:
+    sdf_url: https://www.dropbox.com/scl/fi/c5pbodfm08nc6uo71dfr7/gdb9-2d.tar.gz?rlkey=oelmidne9e0nhpqee3v2bpuc3&st=ywpp5u4a&dl=1
