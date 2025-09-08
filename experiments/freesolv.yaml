@@ -1,0 +1,18 @@
+config:
+  model_name: unimolv2
+  model_size: 84m
+  task: regression
+  metrics: mse
+  epochs: 50
+  batch_size: 64
+  file_name: FreeSolv
+
+structures:
+  precise3d:
+    sdf_url: https://drive.google.com/uc?export=download&id=1FRn6e_a-BVlfD8-rnemviHeeTBDUnC6P
+  optimized3d:
+    sdf_url: https://drive.google.com/uc?export=download&id=1Fa39l9QUvJzuNi3fD_so92YdGzPXbNi5
+  rdkit3d:
+    sdf_url: https://drive.google.com/uc?export=download&id=1XzATIcN_3Qtjzxqp-r4bKX1bqku4jpq9
+  rdkit2d:
+    sdf_url: https://drive.google.com/uc?export=download&id=1rnxECBjASyIRuD9KfbL2YOuyTJeyjpzL
