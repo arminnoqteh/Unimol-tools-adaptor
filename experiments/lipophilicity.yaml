@@ -1,0 +1,18 @@
+config:
+  model_name: unimolv2
+  model_size: 84m
+  task: regression
+  metrics: mae
+  epochs: 50
+  batch_size: 16
+  file_name: Lipophilicity
+
+structures:
+  precise3d:
+    sdf_url: https://drive.google.com/uc?export=download&id=103QEi4qpe2GCC3buTnRGmiASt5F9nw8n
+  optimized3d:
+    sdf_url: https://drive.google.com/uc?export=download&id=1bs8CV8Yi90GbHIpmbYQvZVzYs6-iITL3
+  rdkit3d:
+    sdf_url: https://drive.google.com/uc?export=download&id=1Q-0mvE8muG-VJq2__iP_211UCdDC6clB
+  rdkit2d:
+    sdf_url: https://drive.google.com/uc?export=download&id=1WiyMPIEWHo0MzBIfCVFyLMiHYxBdk0MS

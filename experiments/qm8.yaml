@@ -1,0 +1,20 @@
+config:
+  model_name: unimolv2
+  model_size: 84m
+  task: regression
+  metrics: mae
+  epochs: 10
+  batch_size: 16
+  file_name: gdb8
+
+structures:
+  precise3d:
+    sdf_url: https://deepchemdata.s3-us-west-1.amazonaws.com/datasets/gdb8.tar.gz
+  optimized3d:
+    sdf_url: https://drive.google.com/uc?export=download&id=1qTxsIJ_aP7Qow6On4BfpBk9SorIzEh9a
+  rdkit3d:
+    sdf_url: https://drive.google.com/uc?export=download&id=1hc0c--8cMbDlfplmJwRUXsfAq-Pj4daY
+  rdkit2d:
+    sdf_url: https://drive.google.com/uc?export=download&id=1MAqVW5GyHmLKLJqdDrIMIBxjDPW3ce3o
+  pubchem3d:
+    sdf_url: https://drive.google.com/uc?export=download&id=1NHcYEOcl6ZN4wUmBM60lB9YOZa_tZ6FG
